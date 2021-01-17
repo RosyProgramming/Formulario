@@ -1,0 +1,92 @@
+<!DOCTYPE html>  <!-- tipo de documento-->
+<html lang="pt-br"> <!-- linguagem do documento html-->
+<head> <!-- cabeçalho -->
+    <meta charset="UTF-8"> <!-- Condificação que indica o formato de caracteres no documento -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- controlar o layout em navegadores de dispositivos móveis-->
+    <link rel="stylesheet" type="text/css" href="formulario.css" media="screen">
+
+    <title>Cadastro</title> <!-- titulo da aba do navegador -->
+</head>
+<body>
+    <!-- Criando o titulo da página-->
+    <div>
+        <h1 id="titulo">Cadastros de Devs</h1>
+        <p id="subtitulo">Complete com suas informações</p>
+        <br>
+    </div>
+   
+    <!-- Formulario-->
+    <form>
+        <fieldset class="grupo">
+            <div class="campo">
+                <label for="nome"><strong>Nome</strong></label>
+                <input type="text" name="nome" id="nome"  placeholder="Nome" required>
+            </div>
+
+            <div class="campo">
+                <label for="sobrenome"><strong>Sobrenome</strong></label>
+                <input type="text" name="sobrenome" id="sobrenome" placeholder="Sobrenome" required>
+            </div>
+        </fieldset>
+
+            <div class="campo">
+                <label for="email"><strong>Email</strong></label>
+                <input type="email"  style="width: 42%;" name="email" id="email" placeholder="email@test.com" required>
+            </div>
+
+            <div class="campo">
+                <label><strong>De qual da aplicação você desenvolver?</strong>
+                </label>
+                <label>
+                    <input type="radio" name="devweb" value="frontend" checked>Front-end
+                </label>
+                <label>
+                    <input type="radio" name="devweb" value="backend">Back-end
+                </label>
+                <label>
+                    <input type="radio" name="devweb" value="fullstack">Fullstack
+                </label>
+            </div>
+
+            <div class="campo">
+                <label for="senioridade"><strong>Senioridade</strong></label>
+                <select id="senioridade">
+                    <option selected disabled value="">Selecione</option>
+                    <option>Junior</option>
+                    <option>Pleno</option>
+                    <option>Senior</option>
+                </select>
+            </div>
+            
+            <fieldset class="grupo">
+                <div id="check">
+                    <label><strong>Selecione as tecnologias que utiliza:</strong></label><br><br>
+                    <input type="checkbox" id="tecnologia1" name="tecnologia1" value="HTMl">
+                    <label for="tecnologia1">HTML</label>
+                    <input type="checkbox" id="tecnologia2" name="tecnologia2" value="CSS">
+                    <label for="tecnologia2">CSS</label>
+                    <input type="checkbox" id="tecnologia3" name="tecnologia3" value="Javascript">
+                    <label for="tecnologia3">CSS</label>
+                    <input type="checkbox" id="tecnologia4" name="tecnologia4" value="PHP">
+                    <label for="tecnologia4">PHP</label>
+                    <input type="checkbox" id="tecnologia5" name="tecnologia5" value="C#">
+                    <label for="tecnologia5">C#</label>
+                    <input type="checkbox" id="tecnologia6" name="tecnologia6" value="Python">
+                    <label for="tecnologia6">Python</label>
+                    <input type="checkbox" id="tecnologia7" name="tecnologia7" value="JAVA">
+                    <label for="tecnologia7">Java</label>
+                </div>
+            </fieldset>
+
+            <div class="campo">
+                <br>
+                <label><strong>Conte um pouco da sua experiência:</strong></label>
+                <textarea rows="6" style="width: 26em" cols="50" id="experiencia" name="experiencia"></textarea>
+            </div>
+            <br>
+
+            <button class="botao"  type="submit">Concluído</button>
+        
+    </form>
+</body>
+</html>
