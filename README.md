@@ -1,5 +1,4 @@
 # Formulario
-Criando um formulário de cadastro somente com html e css.
+Criando formulário de cadastro somente com html e css. Aprimorando meus conhecimentos no mesmo.
 
-
-<img src="https://github.com/RosyProgramming/Formulario/blob/main/img.PNG" height="150" width="150">
+<img src="https://github.com/RosyProgramming/Formulario/blob/main/img.PNG">
