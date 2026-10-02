@@ -1,4 +1,4 @@
-# Formulario
-Criando formulário de cadastro somente com html e css. Aprimorando meus conhecimentos no mesmo.
+# Form
+Creating a registration form using only HTML and CSS. Improving my knowledge of both.
 
 <img src="cadastro.PNG">
